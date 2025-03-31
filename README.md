@@ -8,7 +8,7 @@ This plugn has been created using the [Cheshire cat AI plugin template](https://
 
 It is useful if you want to play the cat answers with custom voices from Eleven Lab API.
 
-<img alt="screenshot of responding with a voice" height="10%" src="voices-sshot.png" width="20%" />
+<img alt="screenshot of responding with a voice" height="50%" src="voices-sshot.png" width="20%" />
 
 ## Usage
 
