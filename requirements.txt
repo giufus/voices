@@ -1,0 +1,4 @@
+elevenlabs
+langdetect
+python-dotenv
+pytest

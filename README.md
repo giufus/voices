@@ -1,26 +1,18 @@
-# My plugin
+# Voices - Cheshire Cat AI plugin 
 
 [![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=383938&style=for-the-badge&logo=cheshire_cat_ai)](https://)  
 [![Awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=Awesome+plugin&color=000000&style=for-the-badge&logo=cheshire_cat_ai)](https://)  
 [![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=F4F4F5&style=for-the-badge&logo=cheshire_cat_black)](https://)
 
-Write here all the useful information about your plugin.
+This plugn has been created using the [Cheshire cat AI plugin template](https://github.com/cheshire-cat-ai/plugin-template) and inspired by the [Mycroft-Cat plugin](https://github.com/pazoff/Mycroft-Cat). 
 
-This repository is the template to automate the release of official Cheshire Cat AI plugins. 
+It is useful if you want to play the cat answers with custom voices from Eleven Lab API.
 
 ## Usage
 
-1. Create a new repository clicking on the `Use this template` button.
-2. Clone your new repo directly in the Cat's `plugins` folder.
-3. Run the `setup.py` script:
-```bash
-python setup.py
-```
-The script will prompt you to write the name of your plugin and make an initial setup setting the name in the files.
+1. You need [Eleven Labs](https://elevenlabs.io/docs/overview) API access and a API Key.
+2. You need a voice ID (use List voices API and the right filter to find the ID). 
+3. Install the Voices plugin and enable it.
+4. Configure the Voices plugin settings.
 
-4. Start developing!
-
-> **Important**
-> A new release of your plugin is triggered every time you set a new `version` in the `plugin.json` file.
-> Please, remember to set it correctly every time you want to release an update.
-
+Now any chat with the cat will also have an auto played audio message. 
